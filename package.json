@@ -1,0 +1,23 @@
+{
+    "name": "fastify-sample",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "type": "module",
+    "scripts": {
+        "test": "node test.js",
+        "start": "node index.js"
+    },
+    "engines": {
+        "node": "v18"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "fastify": "^3.29.0",
+        "tap": "^16.3.8"
+    },
+    "devDependencies": {
+        "@types/tap": "^15.0.8"
+    }
+}
